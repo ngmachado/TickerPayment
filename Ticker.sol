@@ -61,4 +61,8 @@ contract Ticker {
             revert();
         }
     }
+
+    receive() external payable {
+        revert();
+    }
 }
